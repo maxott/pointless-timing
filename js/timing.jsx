@@ -45,10 +45,8 @@
 
     render: function() {
       return (
-        <div className="row">
-          <div className="col-lg-12 split-button" onClick={this.onClick}>
-             <div>{this.state.currentTime.format("HH:mm:ss")} </div>
-          </div>
+        <div className="col-lg-12 split-button split-button-start" onClick={this.onClick}>
+           <div>{this.state.currentTime.format("HH:mm:ss")} </div>
         </div>        
       );
     }

@@ -27,13 +27,25 @@ body {
   text-align: center;  
   font-size: xx-large;
   color: white;
-  background-color: blue;
+}
+
+.split-button-start {
+  padding-left: 20px;
+  padding-right: 0;
+  background-color: green;
+}
+
+.split-button-finish {
+  padding-left: 0px;
+  padding-right: 20px;
+  background-color: orangered;
 }
 
 .split-button div {
   display: table-cell;
   vertical-align: middle;
   text-align: center;  
+  background-color: blue;
 }
 
 .split-list {
