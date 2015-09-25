@@ -1,6 +1,5 @@
 (function () {
   //'use strict';
-  console.log("RRRR", C);
 
   C.RunningClock = React.createClass({
     getInitialState: function() {
@@ -71,7 +70,7 @@
       }
     },  
 
-    render: function() {
+    render2: function() {
       var rows = this.props.splits.map(function(split) {
         return (
           <tr key={split.idx}>
@@ -160,9 +159,11 @@
         );
       });
       return (
-        <div className="split-list split-list-div">
-          {rows}
-        </div>  
+        <div className="split-list-container">
+          <div className="split-list split-list-div">
+            {rows}
+          </div> 
+        </div>
       );
     }
 
