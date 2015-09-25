@@ -16,5 +16,6 @@
     return "You're about to leave, are you sure?";
   } 
 
+  React.initializeTouchEvents(true);
   React.render(<Main/>, document.getElementById('main'));
 })();

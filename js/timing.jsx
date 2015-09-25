@@ -45,7 +45,7 @@
 
     render: function() {
       return (
-        <div className="col-lg-12 split-button split-button-start" onClick={this.onClick}>
+        <div className="col-lg-12 split-button split-button-start" onClick={this.onClick} onTouchStart={this.onClick}>
            <div>{this.state.currentTime.format("HH:mm:ss")} </div>
         </div>        
       );
