@@ -1,0 +1,67 @@
+body {
+  padding-top: 150px;
+}
+
+.container-fluid {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+.split-button {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 50px;
+  
+  height: 100px;
+  width: 100%;
+  
+  display: table;
+  text-align: center;  
+  font-size: xx-large;
+  color: white;
+  background-color: blue;
+}
+
+.split-button div {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;  
+}
+
+.split-list {
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.split-list tr {
+  vertical-align: middle;
+}
+
+.split-index {
+  padding-left: 15px;
+  padding-top: 4px;  /* Poor man's centering */
+  font-size: medium;
+}
+
+.split-list .split-time {
+  
+}
+
+.unknown-bib {
+  font-weight: normal;
+  color: grey;
+}
+
+.split-list-div .row {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: grey 1px solid;
+}
+
